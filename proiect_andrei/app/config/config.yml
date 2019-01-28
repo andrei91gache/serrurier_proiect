@@ -84,3 +84,6 @@ assetic:
             inputs:
                 '@FrontBundle/Resources/public/img/header-bg.jpg'
 
+        modal_img:
+            inputs:
+                '@FrontBundle/Resources/public/img/modal_img/*'
