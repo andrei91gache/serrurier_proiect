@@ -1,0 +1,7 @@
+back_office_homepage:
+    path:     /
+    defaults: { _controller: BackOfficeBundle:Default:index }
+
+back_office_user:
+    path:     /user
+    defaults: { _controller: BackOfficeBundle:Default:testUser }
