@@ -7,4 +7,4 @@ front:
     prefix:   /
 
 fos_user:
-    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

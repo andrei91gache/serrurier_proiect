@@ -1,1 +1,2 @@
-
+parameters:
+  google.developer.key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
