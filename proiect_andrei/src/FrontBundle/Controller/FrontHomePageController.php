@@ -14,7 +14,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-putenv('GOOGLE_APPLICATION_CREDENTIALS='. __DIR__ .'/Resources/config/HangoutMessaging-3cf961a474c0.json');
 
 class FrontHomePageController extends Controller
 {
@@ -25,15 +24,18 @@ class FrontHomePageController extends Controller
 
     public function sendFormAction(Request $request)
     {
+        $response = new Response();
         if($request->isXmlHttpRequest()){
-            $client = new \Google_Client();
-            $client->useApplicationDefaultCredentials();
-            $client->setApplicationName('Matu Fab\'Metal');
-            $service = new \Google_Service_HangoutsChat($client);
-            $s = $service->spaces->listSpaces();
-            var_dump($s);
-            die();
-            return new Response('OK');
+            //Get Service GoogleHangoutChat
+            $hangoutChat = $this->get('hangout_messaging');
+            //Send message
+            $success = $hangoutChat->sendMessage($request);
+            if ($success)
+                $response->setStatusCode(Response::HTTP_ACCEPTED);
+            else
+                $response->setStatusCode(Response::HTTP_SERVICE_UNAVAILABLE);
+
         }
+        return $response;
     }
 }

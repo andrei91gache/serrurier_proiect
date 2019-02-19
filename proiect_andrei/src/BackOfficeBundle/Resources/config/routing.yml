@@ -1,3 +1,12 @@
 back_office_homepage:
     path:     /
     defaults: { _controller: BackOfficeBundle:BackOffice:renderBackOfficeHomepage }
+
+back_office_create_client:
+    path:     /create-client
+    defaults: { _controller: BackOfficeBundle:BackOffice:renderCreateClientPage }
+
+back_office_create_client_post:
+    path:     /create-client-submit
+    defaults: { _controller: BackOfficeBundle:BackOffice:renderCreateClientPost }
+    methods: [post]

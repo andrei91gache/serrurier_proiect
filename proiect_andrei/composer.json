@@ -5,7 +5,9 @@
     "autoload": {
         "psr-4": {
             "FrontBundle\\": "src/FrontBundle",
-            "BackOfficeBundle\\": "src/BackOfficeBundle"
+            "BackOfficeBundle\\": "src/BackOfficeBundle",
+            "Messaging\\HangoutBundle\\": "src/Messaging/HangoutBundle",
+            "Messaging\\EmailingBundle\\": "src/Messaging/EmailingBundle"
         },
         "classmap": [
             "app/AppKernel.php",

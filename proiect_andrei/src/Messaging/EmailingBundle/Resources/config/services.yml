@@ -1,0 +1,4 @@
+services:
+#    messaging_emailing.example:
+#        class: Messaging\EmailingBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4ef6d96067778858098f39518c5dccf",
-    "content-hash": "5d3dc110f388f790c496aac10783fe05",
+    "hash": "691964f067f57b2b19b54b8d7eea6d54",
+    "content-hash": "d38a4dca1bb3795c4a323ad7f915076e",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -414,16 +414,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "98551d71f515692c2278073e0d483763ac70b341"
+                "reference": "1f99e6645030542079c57d4680601a4a8778a1bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/98551d71f515692c2278073e0d483763ac70b341",
-                "reference": "98551d71f515692c2278073e0d483763ac70b341",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/1f99e6645030542079c57d4680601a4a8778a1bd",
+                "reference": "1f99e6645030542079c57d4680601a4a8778a1bd",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2019-01-07 15:31:08"
+            "time": "2019-02-06 13:18:04"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",

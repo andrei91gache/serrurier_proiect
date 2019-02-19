@@ -1,0 +1,5 @@
+services:
+  hangout_messaging:
+    class: Messaging\HangoutBundle\Services\GoogleHangoutChatService
+    arguments: ["@logger"]
+    public: true
