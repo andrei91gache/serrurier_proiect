@@ -117,7 +117,7 @@ class GoogleHangoutChatService
 
         $card_header  = new \Google_Service_HangoutsChat_CardHeader();
         $card_header->setTitle($title);
-        $card_header->setSubtitle("Telephone: ".$phone." Email: ".$email);
+        $card_header->setSubtitle("Telephone: ".$phone);
         $card->setHeader($card_header);
         return $card;
     }

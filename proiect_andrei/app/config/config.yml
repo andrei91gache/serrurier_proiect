@@ -85,9 +85,13 @@ assetic:
             inputs:
                 '@FrontBundle/Resources/public/img/header-bg.jpg'
 
-        modal_img:
+        portes:
             inputs:
-                '@FrontBundle/Resources/public/img/modal_img/*'
+                '@FrontBundle/Resources/public/img/modal_img/portes/*'
+
+        lightbox_images:
+            inputs:
+                '@FrontBundle/Resources/public/lightbox/src/images/*'
 fos_user:
     db_driver: orm # other valid values are 'mongodb' and 'couchdb'
     firewall_name: main
