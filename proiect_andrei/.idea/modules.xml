@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Module 3 - TP 3/.idea/Module 3 - TP 3.iml" filepath="$PROJECT_DIR$/../../Module 3 - TP 3/.idea/Module 3 - TP 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../amazon_api/.idea/amazon_api.iml" filepath="$PROJECT_DIR$/../../amazon_api/.idea/amazon_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/proiect_andrei.iml" filepath="$PROJECT_DIR$/.idea/proiect_andrei.iml" />
     </modules>
   </component>
