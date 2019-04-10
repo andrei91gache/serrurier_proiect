@@ -24,8 +24,7 @@ class FrontHomePageController extends Controller
 
     public function sendFormAction(Request $request)
     {
-        ini_set('SMTP','ssl0.ovh.net');
-        ini_set('smtp_port',465);
+        mail('andrei.gache.99@gmail.com', 'test email', 'hello');
         $mailer = $this->get('mailer');
         $message = (new \Swift_Message('Hello Email'))
             ->setFrom('andrei@andrei-gache.com')
