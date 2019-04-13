@@ -6,7 +6,9 @@
     <title>{% block title %}Matu Fab'Metal{% endblock %}</title>
     <meta name="description" content="serruerie generale, montage des portes, menuserie métallique, dépannage ">
     <meta name="author" content="www.andrei-gache.com">
-
+    {% image '@FrontBundle/Resources/public/img/favicon.png' %}
+        <link rel="icon"  href="{{ asset_url }}" />
+    {% endimage %}
     {% block stylesheet %}
     {% endblock %}
 </head>
