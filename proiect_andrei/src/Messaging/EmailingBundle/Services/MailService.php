@@ -52,6 +52,6 @@ class MailService
 
     private function flushMail()
     {
-        return mail('miron.bsm@gmail.com', 'Mesaj Website serrurieremetallerie.fr', $this->view_mail);
+        return mail('equipe@serruriermetallier.fr', 'Mesaj Website serrurieremetallerie.fr', $this->view_mail);
     }
 }
